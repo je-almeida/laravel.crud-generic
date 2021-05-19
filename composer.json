@@ -2,6 +2,7 @@
     "name": "jeff-almeida/crud-generic",
     "description": "Pacote Facilitador para Construçao de CRUD's Basicos",
     "license": "MIT",
+    "type": "library",
     "authors": [
         {
             "name": "jeff-almeida",
