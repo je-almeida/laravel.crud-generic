@@ -23,7 +23,7 @@ class CrudGenericController extends BaseController
     public function __construct()
     {
         if(!$this->model) {
-            throw new \Exception('Variável $model em ' . get_class($this) . ' não configurada. App\\Models\\Example?', 500);
+            throw new \Exception('Variável $model em ' . get_class($this) . ' não configurada. App\\\\Models\\\\Example?', 500);
         }
     }
 
