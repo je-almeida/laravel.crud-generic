@@ -34,12 +34,11 @@ class CrudGenericController extends BaseController
 
     public function create()
     {
-        //
     }
-
+    
     public function store(Request $request)
     {
-        //
+        return $this->model::create(request()->all());
     }
 
     public function show($id)
