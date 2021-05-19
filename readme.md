@@ -16,6 +16,15 @@ $ composer require jeff-almeida/crud-generic
 ```
 
 ## Usage
+# In Controller:
+> extend CrudGenericController & configure $model var
+``` php
+use JeffAlmeida\CrudGeneric\Http\Controllers\CrudGenericController;
+
+class UserController extends CrudGenericController {
+    protected $model = "App\\Models\\User";
+}
+```
 
 ## Change log
 
